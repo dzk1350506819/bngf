@@ -1,0 +1,527 @@
+/*初始化样式*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;} 
+body{background:#fff;color:#333;font-size:12px; margin-top:5px;font-family:"SimSun","宋体","Arial Narrow";} 
+ 
+ul,ol{list-style-type:none;} 
+select,input,img,select{vertical-align:middle;} 
+
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+ /**
+a{text-decoration:none;} 
+a:link{color:#009;} 
+a:visited{color:#800080;} 
+a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
+
+*/
+
+/*公共样式*/
+.com_width{
+	width: 1200px;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.width-200{
+	width: 200px;
+	padding-right: 20px;
+}
+.m_r_10{
+	margin-right: 10px;
+}
+.m_l_10{
+	margin-left: 10px;
+}
+.hr_20{
+	height:20px;
+}
+.hr_50{
+	height:50px;
+}
+.dispaly_block{
+	display: block;
+}
+/*头部样式*/
+.top{
+	height: 50px;
+	width: 100%;
+	background-color: #c80000;
+	color: #FFFFFF;
+	font-size: 12px;
+}
+.con_main{
+	margin: auto;
+}
+
+.top_left img{
+	display: block;
+	margin: 8px 0;
+	float: left;
+}
+.city{
+	width:50px;
+	line-height: 50px;
+	text-align: center;
+}
+.city a{
+	background-image: url(../img/icom/下拉.png);
+}
+
+.on{
+	background-color: #b20000;
+}
+.title_bar ul li{
+	display: block;
+	float: left;
+	padding: 0 12px;
+	text-align: center;
+	line-height: 50px;
+}
+.border-rigth{
+	border-right: solid 2px #FFFFFF;
+	padding-right:26px ;
+}
+/*内容样式*/
+.describe{
+	height:130px;
+	padding: 10px 0;
+}
+.describe h1{
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	font-size: 30px;
+	line-height: 60px;
+}
+.describe p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	text-align: center;
+	font-size:12px;
+	line-height: 50px;
+}
+.buybg{
+	width: 100%;
+	height: 400px;
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/Beijing.png);
+}
+.buycon{
+	margin:20px auto;
+}
+.buyconer{
+	
+}
+.buytab{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	height: 50px;
+}
+	
+.buytab a{
+	color: #333333;
+	display: block;
+	
+}
+.buytop{
+	height: 50px;
+	float: left;
+	line-height: 50px;
+	padding: 0 20px;
+	border-bottom: solid 2px #cccccc;
+}
+.buytop_on{
+
+	font-weight: bold;
+	border-bottom: 2px solid #ff6600;
+}
+
+td{
+	height: 40px;
+}
+em{
+	color:#ff6600;
+	padding-right: 30px;
+}
+select{
+	height: 30px;
+	width: 138px;
+}
+input{
+	height: 30px;
+	width: 178px;
+	font-size: 14px;
+	margin: 8px 0;
+}
+#get_vc{
+	width:100px;
+	height:30px;
+	margin: 10px 10px;
+}
+#submit{
+	background-color: #FF6600;
+	color: #FFFFFF;
+	width: 130px;
+	height: 40px;
+	font-size: 16px;
+	margin: 2px 0 0 0;
+
+}
+.position{
+	position: absolute;
+	display: none;
+	
+}
+.table_on{
+	display: block;
+}
+
+
+/*中心样式*/
+.process{
+	margin: 0 auto;
+}
+.process ul{
+	margin: 20px 52px 40px;
+	width: 135px;
+	float: left;
+}
+.process ul li{
+	font-family: "微软雅黑";
+	line-height: 20px;
+}
+.content i{
+	display: block;
+	
+	height: 100px;
+}
+.p1{
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/01_25.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+.p2{
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/02_03.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+.p3{
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/03_03.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+.p4{
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/06_03.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+.p5{
+	background-image: url(http://www.rc100.cn/file/upload/201811/28/07_03.png);
+	background-repeat: no-repeat;
+	background-position: 15px 0;
+}
+.content .process h3{
+	margin: 12px 0;
+	text-align: center;
+	font-size: 24px;
+	color: #333333;
+}
+
+/*图片块*/
+.wrapbggray{
+	background-color: #fff;
+}
+.photos{
+	margin: 0 auto;
+	padding: 60px 100px 30px;
+	font-family: "微软雅黑";
+	background-color: #FFFFFF;
+}
+.xf{
+	width:300px;
+	height: 158px;
+	padding-left: 50px;
+}
+.esf{
+	width:340px;
+	height: 158px;
+	padding-right: 50px;
+}
+.wrapbggray h5{
+	font-size: 30px;
+    padding-left: 50px;
+    font-weight: 700;
+	
+}
+.wrapbggray p{
+	font-size: 18px;
+    padding-left: 50px;
+    line-height: 34px;
+    margin-top: 10px;
+	
+}
+#h5_1{
+	background: url(http://www.rc100.cn/file/upload/201811/28/buy_icon1.gif) no-repeat 0 0;
+}
+#h5_2{
+	background: url(http://www.rc100.cn/file/upload/201811/28/buy_icon1.gif) no-repeat 0 -74px;
+}
+#h5_3{
+	background: url(http://www.rc100.cn/file/upload/201811/28/buy_icon1.gif) no-repeat 0 -156px;
+}
+#h5_4{
+	background: url(http://www.rc100.cn/file/upload/201811/28/buy_icon1.gif) no-repeat 0 -238px;
+}
+#h5_5{
+	background: url(http://www.rc100.cn/file/upload/201811/28/buy_icon1.gif) no-repeat 0 -318px;
+}
+.hwgf{
+	background-color: #f7f7f7;
+	height: 340px;
+	padding-left: 50px;
+}
+.hwgf_left{
+	width: 400px;
+	padding: 20px 0 0;
+}
+.hwgf .hwgf_left a{
+	color: red;
+	font-size: 14px;
+}
+.hwgf .hwgf_left ul {
+	width: 80%;
+	margin: 10px auto;
+}
+.hwgf .hwgf_left ul li{
+	float: left;
+	padding:0 15px;
+}
+.circle_photo img{
+	width: 245px;
+	height: 245px;
+	border-radius: 245px;
+	margin: 20px;
+}
+.circle_photo{
+	margin: 0 37px;
+	width: 300px;
+	height: 340px;
+	display: block;
+}
+
+.circle_photo p{
+	font-size:14px;
+	
+}
+.circle_photo em{
+	font-size:16px;
+	padding-left: 10px;
+}
+#mfdk_top{
+	
+	margin-top: 40px;
+}
+#mfdk_top h5{
+	width: 200px;
+	float: right;
+	margin-right: 20px;
+}
+#mfdk_top p{
+	width: 220px;
+	float: right;
+	height: 40px;
+	margin-top: 0;
+}
+.circle_div{
+	width: 203px;
+	height: 203px;
+	border-radius: 245px;	
+	background-color: #f7f7f7;
+	margin: 0 88px;
+}
+
+
+.circle_div p{
+	width: 200px;
+	height: 20px;
+    font-size: 14px;
+    text-align: center;
+	margin: 0;
+	padding: 10px 0 0 0;
+}
+.tit{
+	font-size: 20px;
+    
+    font-weight: bold;
+}
+.ysbh{
+	background-color: #f7f7f7;
+	height: 400px;
+	padding: 50px 0 0 50px;
+	
+}
+.ysbh p{
+	width: 30%;
+	float: left;
+}
+.ysbh img{
+	
+}
+.ysbh span{
+	float: left;
+	
+	padding-left: 200px;
+}
+/*排行榜样式*/
+.width_600{
+	width: 600px;
+}
+.charts .charts_top{
+	margin: 0 auto 20px;
+	background-color: #F7F7F7;
+	height: 50px;
+}
+.charts .charts_top h3{
+	float: left;
+	font-size:24px;
+	font-weight: 600;
+	padding-left: 50px;
+}
+.charts a{
+	font-size: 14px;
+	color: #333333;
+	font-family: "微软雅黑";
+}
+.charts .charts_top p{
+	float: right;
+	padding-right: 20px;
+	
+}
+.charts .charts_top a:hover{
+	text-decoration:underline;
+	color: red;
+}
+.data_list{
+	margin: 0 auto;
+	height: 420px;
+}
+.charts .list_top h4{
+	cursor: pointer;
+}
+.charts .list_top .s1{
+	font-weight: bold;
+	float: left;
+	height: 35px;
+	padding: 0 10px;
+	font-size: 16px;
+	
+}
+.charts .list_top .s2{
+	float: left;
+	height: 35px;
+	padding: 0 10px;
+	font-weight: normal;
+	font-size: 16px;
+}
+.charts .list_top h4:hover{
+	color: red;
+}
+.charts .list_top{
+	height: 36px;
+	border-bottom: 1px solid #CCCCCC;
+
+}
+.charts .list_main{
+	position: relative;
+}
+.charts .list_main ul{
+	position: absolute;
+	display: none;
+}
+.charts .list_main li{
+	padding: 2px 100px 2px 5px;
+	height: 46px;
+	line-height: 46px;
+	border-top: 1px dotted #d3d3d3;
+}
+.charts .list_main li:hover{
+	background-color: #F7F7F7;
+}
+.charts .list_main .num{
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	color: rgb(255,255,255);
+	margin-top: 15px;
+	font-size: 12px;
+	background-color: rgb(223,223,223);
+}
+.charts .list_main .top3{
+	background-color: red;
+}
+.charts .list_main .dping{
+	margin:0 40px;
+	float: left;
+	display: block;
+	width: 160px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.charts .list_main .dping_1{
+	margin:0 10px;
+	float: left;
+	display: block;
+	width: 400px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.charts .list_main i{
+	float: left;
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(http://www.rc100.cn/file/upload/201811/28/xingxing.png);
+	margin-top: 5px;
+}
+.loupanname{
+	width:150px;
+	height: 46;
+}
+.rtb{
+	color: #999;
+	font-size: 14px;
+}
+/*底部样式*/
+#footer a {
+    color: #818181;
+    padding: 0 5px;
+	text-decoration: none;
+	font-size: 12px;
+}
+#footer {
+    width: 1200px;
+    border-top: #DDD 1px solid;
+    padding: 20px 0;
+    margin: 36px auto 0 auto;
+    line-height: 26px;
+    text-align: center;
+}
+#footer p{
+	font-size: 12px;
+	color:#666;
+	margin: 0;
+	line-height: 26px;
+}
